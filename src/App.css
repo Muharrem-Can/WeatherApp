@@ -1,0 +1,93 @@
+body{
+  background-color: #2b3035;
+}
+
+.menuicons{
+  font-size: 23px;
+}
+.nav-link{
+  margin: 10px 0px;
+}
+.nav{
+  padding: 0px 5px;
+}
+
+input::placeholder{
+  color: white !important;
+  padding-left: 15px;
+}
+
+.currentCity{
+  width: max-content;
+  margin: 25px 20px 20px 0px;
+  padding: 10px 35px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.small{
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.currentTemp{
+  margin-top: 35px;
+  font-size: 53px;
+  margin-bottom: 3px;
+  font-weight: 400;
+}
+
+.feelsLike{
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.weatherIcon{
+  font-size: 100px;
+}
+
+.searchButton{
+  color: white;
+  background: unset;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.card{
+  margin: 10px 0px;
+  height: 421px;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #2b3035; 
+}
+::-webkit-scrollbar-thumb {
+  background: #212529; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+@media only screen and (max-width: 600px) {
+  
+.currentTemp{
+  font-size: 35px;
+}
+
+.weatherIcon{
+  width: 100px;
+}
+.todayCard{
+  height: auto;
+}
+td{
+  font-size: 12px;
+}
+}
